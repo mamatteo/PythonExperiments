@@ -1,3 +1,5 @@
+#Tramite questo script l'utente può specificare un indirizzo di una pagina XML contenente i bandi e le gare di una pubblica amministrazione. Il codice si preoccupa di costruire la relativa tabella csv del file XML indicato.
+
 import pandas as pd
 import itertools
 from bs4 import BeautifulSoup
